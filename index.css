@@ -21,10 +21,12 @@ body {
   backdrop-filter: blur(25px) grayscale(0%) saturate(50%) brightness(150%);
 }
 
-/* Header Layout */
+/* HomePage Layout */
 
+/* Header */
 .home-page-header,
 .home-page-nav,
+.home-page-main-container,
 body {
   display: flex;
 }
@@ -41,7 +43,7 @@ body {
   margin-top: 2em;
 }
 .header-line {
-  width: 25em;
+  width: 45em;
   border: none;
   height: 1px;
   color: #979797;
@@ -62,7 +64,6 @@ body {
   padding-right: 7em;
   padding-left: 7em;
   list-style: none;
-  transform: translateX(4em);
 }
 
 .home-page-nav-item {
@@ -79,7 +80,33 @@ body {
 .logo {
   width: 9em;
 }
+/* Body Layout */
+.home-page-main-container {
+  margin-top: 15em;
+}
 
+.home-page-title-span {
+  display: block;
+  margin-top: 0.2em;
+  color: white;
+}
+.home-page-article-container {
+  width: 24%;
+  margin-right: 37em;
+}
+.home-page-paragraph {
+  font-size: 0.8em;
+  line-height: 1.8em;
+  font-weight: 200;
+  color: #d0d6f9;
+}
+.explore-button {
+  border-radius: 50%;
+  height: 15em;
+  width: 15em;
+  border: none;
+  align-self: flex-end;
+}
 /* Home Page Typography */
 body {
   font-family: "Barlow Condensed", sans-serif;
@@ -97,7 +124,7 @@ body {
 }
 
 .home-page-title-span {
-  font-size: 3em;
+  font-size: 5em;
   font-weight: 400;
   font-family: Bellefair;
 }
