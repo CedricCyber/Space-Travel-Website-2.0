@@ -1,0 +1,103 @@
+/* General Selectors */
+body {
+  margin: 0;
+}
+/* BG Image */
+body {
+  background-image: url(./assets/home/background-home-desktop.jpg);
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1100px) {
+  body {
+    background-image: url(./assets/home/background-home-tablet.jpg);
+  }
+}
+/* Colors */
+body {
+  color: white;
+}
+.home-page-nav-container {
+  backdrop-filter: blur(25px) grayscale(0%) saturate(50%) brightness(150%);
+}
+
+/* Header Layout */
+
+.home-page-header,
+.home-page-nav,
+body {
+  display: flex;
+}
+
+.home-page-container {
+  width: 100%;
+}
+.home-page-header {
+  align-items: center;
+}
+.home-page-header {
+  position: relative;
+  left: -2em;
+  margin-top: 2em;
+}
+.header-line {
+  width: 25em;
+  border: none;
+  height: 1px;
+  color: #979797;
+  background-color: #979797;
+  opacity: 0.4;
+  position: relative;
+  z-index: 1;
+  right: -4em;
+  margin-left: -2em;
+}
+.home-page-nav-container {
+  width: 100%;
+  transform: translateX(2em);
+}
+.home-page-nav {
+  gap: 8%;
+  margin: 0;
+  padding-right: 7em;
+  padding-left: 7em;
+  list-style: none;
+  transform: translateX(4em);
+}
+
+.home-page-nav-item {
+  padding-top: 1.3em;
+  padding-bottom: 1.3em;
+}
+.home-page-nav-item:hover {
+  border-bottom: 2px solid white;
+  margin-bottom: -2px;
+  cursor: pointer;
+}
+.nav-bar-span {
+}
+.logo {
+  width: 9em;
+}
+
+/* Home Page Typography */
+body {
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 3px;
+}
+.home-page-nav-item,
+.home-page-title {
+  font-size: 1.3em;
+}
+
+.nav-bar-span,
+.home-page-title {
+  font-weight: 100;
+  opacity: 0.7;
+}
+
+.home-page-title-span {
+  font-size: 3em;
+  font-weight: 400;
+  font-family: Bellefair;
+}
