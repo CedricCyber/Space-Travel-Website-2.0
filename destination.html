@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;400&family=Barlow:wght@200;300;400&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="destination.css" />
+    <script type="module" src="index.js" defer></script>
+
+    <title>Space tourism website</title>
+  </head>
+  <body>
+    <svg
+      class="logo"
+      xmlns="http://www.w3.org/2000/svg"
+      width="48"
+      height="48"
+      alt="logo"
+    >
+      <g fill="none" fill-rule="evenodd">
+        <circle cx="24" cy="24" r="24" fill="#FFF" />
+        <path
+          fill="#0B0D17"
+          d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"
+        />
+      </g>
+    </svg>
+    <div class="mobile-nav-container">
+      <nav class="mobile-nav">
+        <ul class="mobile-nav-items">
+          <li class="mobile-nav-item">
+            <a href="index.html"
+              ><span class="mobile-item-number">00</span
+              ><span class="mobile-item-word">HOME</span></a
+            >
+          </li>
+          <li class="mobile-nav-item">
+            <a href="destination.html"
+              ><span class="mobile-item-number">01</span
+              ><span class="mobile-item-word"> DESTINATION</span></a
+            >
+          </li>
+          <li class="mobile-nav-item">
+            <a href="crew.html"
+              ><span class="mobile-item-number">02</span
+              ><span class="mobile-item-word"> CREW</span></a
+            >
+          </li>
+          <li class="mobile-nav-item">
+            <a href="technology.html"
+              ><span class="mobile-home-item-number">03</span
+              ><span class="mobile-home-item-word"> TECHNOLOGY</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <svg
+      class="destination-hamburger-menu"
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="21"
+    >
+      <g fill="#D0D6F9" fill-rule="evenodd">
+        <path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z" />
+      </g>
+    </svg>
+    <div class="destination-container">
+      <header class="destination-header">
+        <hr class="header-line" />
+        <nav class="nav-container">
+          <ul class="destination-nav">
+            <li class="destination-nav-item">
+              <a href="index.html"
+                ><span class="nav-bar-number-span">00</span
+                ><span class="nav-bar-span"> Home</span></a
+              >
+            </li>
+            <li class="destination-nav-item">
+              <a href="destination.html"
+                ><span class="nav-bar-number-span">01</span
+                ><span class="nav-bar-span"> Destination</span></a
+              >
+            </li>
+            <li class="destination-nav-item">
+              <a href="crew.html"
+                ><span class="nav-bar-number-span">02</span
+                ><span class="nav-bar-span"> Crew</span></a
+              >
+            </li>
+            <li class="destination-nav-item">
+              <a href="technology.html"
+                ><span class="nav-bar-number-span">03</span
+                ><span class="nav-bar-span"> Technology</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <h2 class="pick-destination-header">
+        <span class="destination-number-span">01</span>PICK YOUR DESTINATION
+      </h2>
+      <main class="destination-main-container">
+        <div class="pick-destination-header-img-container">
+          <img
+            class="destination-image"
+            src="./assets/destination/image-moon.png"
+            alt="moon image"
+          />
+        </div>
+        <article class="destination-article-container">
+          <nav class="destination-nav-container">
+            <ul class="destination-nav-items">
+              <li class="destination-nav-item moon sub-nav">MOON</li>
+              <li class="destination-nav-item mars sub-nav">MARS</li>
+              <li class="destination-nav-item europa sub-nav">EUROPA</li>
+              <li class="destination-nav-item titan sub-nav">TITAN</li>
+            </ul>
+          </nav>
+          <span class="destination-title-span">MOON</span>
+          <p class="destination-paragraph">
+            See our planet as you’ve never seen it before. A perfect relaxing
+            trip away to help regain perspective and come back refreshed. While
+            you’re there, take in some history by visiting the Luna 2 and Apollo
+            11 landing sites.
+          </p>
+          <hr class="header-line" />
+          <div class="article-footer">
+            <div class="article-footer-item">
+              <h3>AVG. DISTANCE</h3>
+              <p class="destination-distance">384,400 KM</p>
+            </div>
+            <div class="article-footer-item">
+              <h3>EST. TRAVEL TIME</h3>
+              <p class="destination-travel-time">3 DAYS</p>
+            </div>
+          </div>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
