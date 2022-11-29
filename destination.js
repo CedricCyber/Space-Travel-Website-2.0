@@ -1,6 +1,8 @@
+// destination.html page
+
 // Dom Elements
 const moonButton = document.getElementsByClassName("moon")[0];
-let marsButton = document.getElementsByClassName("mars")[0];
+const marsButton = document.getElementsByClassName("mars")[0];
 const europaButton = document.getElementsByClassName("europa")[0];
 const titanButton = document.getElementsByClassName("titan")[0];
 const destinationName = document.getElementsByClassName(
@@ -17,10 +19,10 @@ const destinationTravelTime = document.getElementsByClassName(
 )[0];
 const destinationImage =
   document.getElementsByClassName("destination-image")[0];
+
 // Destination Data
 
 import data from "./data.json" assert { type: "json" };
-console.log(data.destinations);
 const destinationData = data.destinations;
 const moonData = destinationData[0];
 const marsData = destinationData[1];

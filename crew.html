@@ -15,8 +15,8 @@
       sizes="32x32"
       href="./assets/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="destination.css" />
-    <script type="module" src="destination.js" defer></script>
+    <link rel="stylesheet" href="crew.css" />
+    <script type="module" src="crew.js" defer></script>
 
     <title>Space tourism website</title>
   </head>
@@ -67,7 +67,7 @@
       </nav>
     </div>
     <svg
-      class="destination-hamburger-menu"
+      class="crew-hamburger-menu"
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="21"
@@ -76,30 +76,30 @@
         <path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z" />
       </g>
     </svg>
-    <div class="destination-container">
-      <header class="destination-header">
+    <div class="crew-container">
+      <header class="crew-header">
         <hr class="header-line" />
         <nav class="nav-container">
-          <ul class="destination-nav">
-            <li class="destination-nav-item">
+          <ul class="crew-nav">
+            <li class="crew-nav-item">
               <a href="index.html"
                 ><span class="nav-bar-number-span">00</span
                 ><span class="nav-bar-span"> Home</span></a
               >
             </li>
-            <li class="destination-nav-item">
+            <li class="crew-nav-item">
               <a href="destination.html"
                 ><span class="nav-bar-number-span">01</span
                 ><span class="nav-bar-span"> Destination</span></a
               >
             </li>
-            <li class="destination-nav-item">
+            <li class="crew-nav-item">
               <a href="crew.html"
                 ><span class="nav-bar-number-span">02</span
                 ><span class="nav-bar-span"> Crew</span></a
               >
             </li>
-            <li class="destination-nav-item">
+            <li class="crew-nav-item">
               <a href="technology.html"
                 ><span class="nav-bar-number-span">03</span
                 ><span class="nav-bar-span"> Technology</span></a
@@ -108,45 +108,42 @@
           </ul>
         </nav>
       </header>
-      <h2 class="pick-destination-header">
-        <span class="destination-number-span">01</span>PICK YOUR DESTINATION
-      </h2>
-      <main class="destination-main-container">
-        <div class="pick-destination-header-img-container">
+      <main class="crew-main-container">
+        <div class="main-container-left-column">
+
+            <h2 class="pick-crew-header">
+                <span class="crew-number-span">01</span>PICK YOUR CREW
+            </h2>
+            <article class="crew-article-container">
+                <h1 class="crew-title">
+                    COMMANDER
+                </h1>
+                <span class="crew-title-span">DOUGLAS HURLEY</span>
+                <p class="crew-paragraph">
+                    Let’s face it; if you want to go to space, you might as well
+                    genuinely go to outer space and not hover kind of on the edge of it.
+            Well sit back, and relax because we’ll give you a truly out of this
+            world experience!
+        </p>
+        <div class="footer-buttons-container">
+            <button class="footer-button douglas">
+            </button>
+            <button class="footer-button mark">
+            </button>
+            <button class="footer-button victor">
+            </button>
+            <button class="footer-button anousheh">
+            </button>
+        </div>
+    </div>
+        </article>
+        <div class="pick-crew-header-img-container">
           <img
-            class="destination-image"
-            src="./assets/destination/image-moon.png"
+            class="crew-image"
+            src="./assets/crew/image-douglas-hurley.png"
             alt="moon image"
           />
         </div>
-        <article class="destination-article-container">
-          <nav class="destination-nav-container">
-            <ul class="destination-nav-items">
-              <li class="destination-nav-item moon sub-nav">MOON</li>
-              <li class="destination-nav-item mars sub-nav">MARS</li>
-              <li class="destination-nav-item europa sub-nav">EUROPA</li>
-              <li class="destination-nav-item titan sub-nav">TITAN</li>
-            </ul>
-          </nav>
-          <span class="destination-title-span">MOON</span>
-          <p class="destination-paragraph">
-            See our planet as you’ve never seen it before. A perfect relaxing
-            trip away to help regain perspective and come back refreshed. While
-            you’re there, take in some history by visiting the Luna 2 and Apollo
-            11 landing sites.
-          </p>
-          <hr class="header-line" />
-          <div class="article-footer">
-            <div class="article-footer-item">
-              <h3>AVG. DISTANCE</h3>
-              <p class="destination-distance">384,400 KM</p>
-            </div>
-            <div class="article-footer-item">
-              <h3>EST. TRAVEL TIME</h3>
-              <p class="destination-travel-time">3 DAYS</p>
-            </div>
-          </div>
-        </article>
       </main>
     </div>
   </body>
