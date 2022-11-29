@@ -16,6 +16,7 @@
       href="./assets/favicon-32x32.png"
     />
     <link rel="stylesheet" href="home-page.css" />
+    <script type="module" src="index.js" defer></script>
     <title>Space tourism website</title>
   </head>
   <body>
@@ -37,28 +38,28 @@
     <div class="mobile-home-nav-container">
       <nav class="mobile-home-nav">
         <ul class="mobile-home-nav-items">
-          <li class="mobile-home-item">
-            <a
+          <li class="mobile-home-nav-item">
+            <a href="index.html"
               ><span class="mobile-home-item-number">00</span
-              ><span class="mobile-home-item-word"> Home</span></a
+              ><span class="mobile-home-item-word"> HOME</span></a
             >
           </li>
-          <li class="mobile-home-item">
-            <a
+          <li class="mobile-home-nav-item">
+            <a href="destination.html"
               ><span class="mobile-home-item-number">01</span
-              ><span class="mobile-home-word"> Destination</span></a
+              ><span class="mobile-home-item-word"> DESTINATION</span></a
             >
           </li>
-          <li class="mobile-home-item">
-            <a
+          <li class="mobile-home-nav-item">
+            <a href="crew.html"
               ><span class="mobile-home-item-number">02</span
-              ><span class="mobile-home-word"> Crew</span></a
+              ><span class="mobile-home-item-word"> CREW</span></a
             >
           </li>
-          <li class="mobile-home-item">
-            <a
+          <li class="mobile-home-nav-item">
+            <a href="technology.html"
               ><span class="mobile-home-item-number">03</span
-              ><span class="mobile-home-word"> Technology</span></a
+              ><span class="mobile-home-item-word"> TECHNOLOGY</span></a
             >
           </li>
         </ul>
@@ -77,28 +78,28 @@
     <div class="home-page-container">
       <header class="home-page-header">
         <hr class="header-line" />
-        <nav class="home-page-nav-container">
+        <nav class="nav-container">
           <ul class="home-page-nav">
-            <li class="home-page-nav-item">
-              <a
+            <li class="home-page-nav-item home">
+              <a href="index.html"
                 ><span class="nav-bar-number-span">00</span
                 ><span class="nav-bar-span"> Home</span></a
               >
             </li>
-            <li class="home-page-nav-item">
-              <a
+            <li class="home-page-nav-item destination">
+              <a href="destination.html"
                 ><span class="nav-bar-number-span">01</span
                 ><span class="nav-bar-span"> Destination</span></a
               >
             </li>
-            <li class="home-page-nav-item">
-              <a
+            <li class="home-page-nav-item crew">
+              <a href="crew.html"
                 ><span class="nav-bar-number-span">02</span
                 ><span class="nav-bar-span"> Crew</span></a
               >
             </li>
-            <li class="home-page-nav-item">
-              <a
+            <li class="home-page-nav-item technology">
+              <a href="technology.html"
                 ><span class="nav-bar-number-span">03</span
                 ><span class="nav-bar-span"> Technology</span></a
               >
@@ -119,7 +120,9 @@
             world experience!
           </p>
         </article>
-        <button class="explore-button">EXPLORE</button>
+        <div class="explore-button-div">
+          <button class="explore-button">EXPLORE</button>
+        </div>
       </main>
     </div>
   </body>
