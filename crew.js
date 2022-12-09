@@ -16,7 +16,6 @@ const buttonContainer = document.getElementsByClassName(
   "footer-buttons-container"
 )[0];
 // Crew Data
-// test2
 import data from "./data.json" assert { type: "json" };
 const douglasData = data.crew[0];
 const markData = data.crew[1];
